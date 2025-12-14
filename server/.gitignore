@@ -20,7 +20,7 @@ temp_*.wav
 # Local Database & Storage
 minio_data/**
 minio_data/.minio.sys/**
-storage/**
+# storage/**
 speaker_db/**
 
 # Backups
