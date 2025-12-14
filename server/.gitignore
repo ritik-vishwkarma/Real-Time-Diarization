@@ -1,0 +1,33 @@
+# Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints
+
+# Project Specific - Temp Audio
+session_*.wav
+temp_*.wav
+*.wav
+
+# Local Database & Storage
+minio_data/**
+minio_data/.minio.sys/**
+storage/**
+speaker_db/**
+
+# Backups
+server_backup.zip
+*.zip
+
+# Logs
+*.log
+
+
