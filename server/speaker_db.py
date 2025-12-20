@@ -88,6 +88,9 @@ class SpeakerProfileDB:
             # FAISS expects [1, 192]
             if embedding.ndim == 1:
                 embedding = embedding.reshape(1, -1)
+
+            assert embedding.shape[1] == self.dim, \
+                f"Embedding dim {embedding.shape[1]} != expected {self.dim}"
                 
             # Search Top 1
             D, I = self.index.search(embedding, 1)
@@ -109,6 +112,9 @@ class SpeakerProfileDB:
         """
         if embedding.ndim == 1:
             embedding = embedding.reshape(1, -1)
+        
+        assert embedding.shape[1] == self.dim, \
+            f"Embedding dim {embedding.shape[1]} != expected {self.dim}"
             
         with self.lock:
             # 1. Update Centroid

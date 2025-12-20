@@ -94,3 +94,13 @@ class MinioUploader:
         except Exception as e:
             logger.error(f"Presigned URL generation failed: {e}")
             return None
+
+    def download_file(self, object_name, file_path):
+        if not self.client: return False
+        try:
+            self.client.fget_object(self.bucket, object_name, file_path)
+            logger.info(f"Downloaded {object_name} to {file_path}")
+            return True
+        except Exception as e:
+            logger.error(f"Download failed for {object_name}: {e}")
+            return False
