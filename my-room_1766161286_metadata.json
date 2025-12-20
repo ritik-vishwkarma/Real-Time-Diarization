@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "session_id": "my-room_1766161286",
+  "events": [
+    {
+      "type": "segment",
+      "start_sec": 1.44,
+      "end_sec": 52.8,
+      "start_sample": 23040,
+      "end_sample": 844800,
+      "speakers": [
+        0
+      ],
+      "is_final": true,
+      "meta": {
+        "confidence": {
+          "0": 0.8645901623226347
+        },
+        "primary_speaker": 0
+      }
+    },
+    {
+      "type": "segment",
+      "start_sec": 53.76,
+      "end_sec": 57.12,
+      "start_sample": 860160,
+      "end_sample": 913920,
+      "speakers": [
+        0
+      ],
+      "is_final": true,
+      "meta": {
+        "confidence": {
+          "0": 0.5389221906661987
+        },
+        "primary_speaker": 0
+      }
+    },
+    {
+      "type": "segment",
+      "start_sec": 69.12,
+      "end_sec": 74.88,
+      "start_sample": 1105920,
+      "end_sample": 1198080,
+      "speakers": [
+        0
+      ],
+      "is_final": true,
+      "meta": {
+        "confidence": {
+          "0": 0.7142836451530457
+        },
+        "primary_speaker": 0
+      }
+    },
+    {
+      "type": "segment",
+      "start_sec": 78.24,
+      "end_sec": 84.0,
+      "start_sample": 1251840,
+      "end_sample": 1344000,
+      "speakers": [
+        0
+      ],
+      "is_final": true,
+      "meta": {
+        "confidence": {
+          "0": 0.8084350029627482
+        },
+        "primary_speaker": 0
+      }
+    },
+    {
+      "type": "segment",
+      "start_sec": 85.44,
+      "end_sec": 123.36,
+      "start_sample": 1367040,
+      "end_sample": 1973760,
+      "speakers": [
+        0
+      ],
+      "is_final": true,
+      "meta": {
+        "confidence": {
+          "0": 0.7319419469152179
+        },
+        "primary_speaker": 0
+      }
+    },
+    {
+      "type": "segment",
+      "start_sec": 131.04,
+      "end_sec": 164.64,
+      "start_sample": 2096640,
+      "end_sample": 2634240,
+      "speakers": [
+        0
+      ],
+      "is_final": true,
+      "meta": {
+        "confidence": {
+          "0": 0.8841982196878504
+        },
+        "primary_speaker": 0
+      }
+    }
+  ],
+  "stats": {
+    "total_events": 6
+  }
+}
